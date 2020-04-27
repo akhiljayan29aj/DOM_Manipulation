@@ -32,4 +32,4 @@ document.querySelector('ul li').style.color = 'blue'; //Nested
 document.querySelector('li:last-child').style.color = 'red';
 document.querySelector('li:nth-child(3)').style.color = 'yellow';
 document.querySelector('li:nth-child(3)').textContent = 'Hello World';
-document.querySelector('li:nth-child(odd)').style.background = '#ccc';
+document.querySelector('li:nth-child(odd)').style.background = '#ccc'; //This will only effect the First odd child not every all.
